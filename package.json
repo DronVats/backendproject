@@ -2,15 +2,19 @@
   "name": "projectbackend",
   "version": "1.0.0",
   "description": "a backend project",
-  "type":"module",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js" 
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
   },
   "keywords": [
     "javascript",
     "backend"
   ],
   "author": "dron vats",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5"
+  }
 }
